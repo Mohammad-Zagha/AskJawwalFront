@@ -1,0 +1,96 @@
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  position: relative;
+  overflow: hidden;
+}
+
+.styled-number-input {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  color: #00e676;
+  font-size: 1.2rem;
+  outline: none; /* Remove the outline when input is focused */
+}
+
+.styled-number-input:focus,
+.styled-number-input:focus-within {
+  border-color: transparent; /* Hide the border when input is focused */
+  box-shadow: 0 0 0 2px #00e676; /* Optional: Add a custom focus indicator */
+}
+
+.signin-box {
+  background: linear-gradient(to right, #00c6ff, #00e676);
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 500px;
+  height: 400px; /* Increased height */
+  position: relative;
+  z-index: 1;
+}
+
+.signin-box h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.signin-box p {
+  margin-bottom: 40px;
+}
+
+.signin-button {
+  background: linear-gradient(to right, #00c6ff, #00e676);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1em;
+  color: white;
+  margin-bottom: 27px;
+  width: 150px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  outline: none; /* Hide the focus outline */
+  z-index: 2;
+  position: relative;
+}
+
+.signin-button:hover {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+.register-link {
+  display: block;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+  z-index: 2;
+  position: relative;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+.signin-box-curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  fill: white;
+  z-index: 0;
+}
+
+.signin-button:focus {
+  outline: none; /* Ensure no outline on focus */
+}

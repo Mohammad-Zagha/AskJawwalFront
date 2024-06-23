@@ -1,0 +1,100 @@
+/* signinphone.css */
+
+.signin-container-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit;
+    /* background-color: #f5f5f5; */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .signin-box-code{
+    background: linear-gradient(to right, #00c6ff, #00e676);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 500px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .signin-box-code h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .signin-box-code p {
+    margin-bottom: 20px;
+  }
+  
+  .signin-input-code {
+    width: 218px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1em;
+    text-align: center;
+  }
+  .signin-input-code:focus {
+    outline: none;
+  }
+  
+  
+  .signin-code-button {
+    background: linear-gradient(to right, #00c6ff, #00e676);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1em;
+    color: white;
+    width: 150px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    outline: none; /* Hide the focus outline */
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .signin-code-button:focus {
+    outline: none; /* Ensure no outline on focus */
+  }
+  .signin-code-button:hover {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+  }
+  
+  .info-text-code {
+    margin-bottom: 20px;
+  }
+  
+  .info-text-code p {
+    margin: 5px 0;
+  }
+  
+  .back-link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  .signin-box-curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    fill: white;
+    z-index: 0;
+  }
+  
